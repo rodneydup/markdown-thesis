@@ -20,12 +20,12 @@ Text content goes in markdown files in markdown folder. I did each chapter as a 
 
 Figures go in the figures folder. Look in my markdown files to see how I reference them.
 
-Formatting stuff goes in "default.yaml". 
+Formatting stuff goes in `default.yaml`. 
 
-"ieee.csl" is the style sheet the determines for example the way citations are formatted.
+`ieee.csl` is the style sheet the determines for example the way citations are formatted.
 
-All references go in a file called "references.bib". I used zotero to generate this automatically.
+All references go in a file called `references.bib`. I used zotero to generate this automatically.
 
 The front matter (everything before the table of contents) had to be done in another text editor, I couldn't find a satisfactory way to do so in markdown. I exported the front matter to a pdf on its own.
 
-generate_pdf is the script to run in order to, you guessed it, generate the pdf. It first uses pandoc to generate a pdf called "content.pdf" from all the markdown files, then adds the front matter with pdftk.
+`generate_pdf` is the script to run in order to, you guessed it, generate the pdf. It first uses pandoc to generate a pdf called "content.pdf" from all the markdown files, then adds the front matter with pdftk.
