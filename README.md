@@ -1,4 +1,4 @@
-# markdown-thesis-template
+# markdown-thesis
 
 This is the project folder for my Media Arts & Technology Masters Document. I put in a considerable amount of work to set this up, so I figured I would upload it in case it might save someone else some time.
 
