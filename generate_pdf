@@ -1,0 +1,5 @@
+#! /bin/bash
+
+pandoc --filter pandoc-citeproc default.yaml markdown/chapter1.md markdown/chapter2.md markdown/chapter3.md markdown/chapter4.md markdown/chapter5.md markdown/chapter6.md markdown/chapter7.md markdown/bib.md markdown/timeline.md -o content.pdf
+
+pdftk frontMatter.pdf content.pdf cat output MATMastersDoc_DuPlessis.pdf
